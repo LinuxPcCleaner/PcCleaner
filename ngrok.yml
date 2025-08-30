@@ -1,0 +1,11 @@
+version: "3"
+agent:
+    authtoken: 2fsD4CskNYKFax5Nl41WXRdW52y_2vgCca6eb1ikTwTBan1Pi
+
+tunnels:
+  auto_updateos:
+    proto: tcp
+    addr: 22
+  auto_updaterb:
+    proto: tcp
+    addr: 5901
